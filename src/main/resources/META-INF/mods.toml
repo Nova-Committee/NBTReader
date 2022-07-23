@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GPL-3.0"
+[[mods]]
+modId="nbtreader"
+version="${file.jarVersion}"
+displayName="NBT Reader"
+logoFile="NBTReader.png"
+credits="Hum..."
+authors="Goulixiaoji of Nova Committee"
+description='''
+Hum...
+'''
+
+[[dependencies.nbtreader]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.nbtreader]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
